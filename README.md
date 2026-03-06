@@ -1,15 +1,26 @@
 📈 RetailAI – Demand Forecasting & Stock Optimization System
 A modern, full-stack web application designed for retail store managers to analyze historical sales data, predict future product demand, optimize inventory, and receive actionable insights from an AI-powered retail assistant. Built as a hackathon project, this system operates entirely locally using JSON storage, making it incredibly fast and easy to deploy.
 
+
 🌟 Features
+
 🔐 Simple Authentication: Secure dashboard access using local session state.
+
 📊 Inventory Dashboard: High-level metrics including Total Products, Low Stock Items, Predicted Demand, and Stockout Risks.
+
 📦 Product Management: Full CRUD capabilities to add, edit, or delete inventory records dynamically.
+
 📁 CSV Data Ingestion: Upload historical sales data directly via CSV (parsed locally using PapaParse).
+
 📈 Sales Analytics: Visualized historical trends and top-selling products using Recharts.
+
 🔮 Demand Forecasting Engine: Built-in algorithm to calculate expected future demand and generate smart reorder recommendations based on current stock.
+
 🧠 AI Insight Service: Generates plain-text, contextual insights explaining why a product needs restocking.
+
 💬 AI Chat Assistant: An interactive chat interface for store managers to ask questions about their inventory and get instant guidance.
+
+
 🛠️ Tech Stack
 Framework: Next.js 14+ (App Router)
 Language: TypeScript
@@ -17,6 +28,8 @@ Styling: Tailwind CSS
 Charts: Recharts
 CSV Parsing: PapaParse
 Database/Storage: Local JSON file system (/data directory)
+
+
 🚀 Getting Started
 Follow these instructions to get the project up and running on your local machine.
 
