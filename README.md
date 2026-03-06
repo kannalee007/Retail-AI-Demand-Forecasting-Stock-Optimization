@@ -49,6 +49,9 @@ Bash
 npm run dev
 Open the application
 Navigate to http://localhost:3000 in your browser.
+
+
+
 🔑 Default Credentials
 To access the protected dashboard, use the following demo credentials:
 Email: admin@retailai.com
@@ -65,18 +68,28 @@ Plaintext
 ├── public/                  # Static assets
 ├── tailwind.config.ts       # Tailwind CSS configuration
 └── package.json             # Project dependencies
+
+
 💻 Expected Demo Flow
+
+
 Login: Authenticate using the default admin credentials.
 Upload Sales CSV: Navigate to the data ingestion section and upload a CSV file (date,product_id,units_sold).
 View Forecasts: Check the dashboard for automatic demand predictions and stockout risk alerts.
 Reorder Recommendations: Look at the product table to see dynamically calculated reorder quantities.
 AI Assistant: Open the chat interface to ask questions about inventory optimization.
+
+
 🔌 API Endpoints Reference
 This project utilizes Next.js Server-side API routes to handle logic:
 POST /api/forecast: Accepts historical sales arrays and returns calculated demand and reorder quantities.
 POST /api/ai-insight: Accepts product details and returns a contextual natural language insight.
 POST /api/chat: Processes user queries and returns conversational AI responses.
+
+
 🔮 Future Improvements (Post-Hackathon)
+
+
 Integrate a real database (PostgreSQL / MongoDB) instead of local JSON storage.
 Connect the AI Chat and Insight endpoints to real LLM APIs (like OpenAI GPT-4 or Google Gemini).
 Implement advanced Machine Learning models (e.g., ARIMA, Prophet) for demand forecasting.
